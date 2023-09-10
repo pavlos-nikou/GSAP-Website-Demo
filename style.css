@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(52, 52, 52);
+    scroll-snap-type: y mandatory;
+    /* background-image: url("/src/hero-vive-pro-series.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-dodge; */
+}
+
+.contentBox1 {
+    
+    background-color: rgba(15, 15, 15,0.5);
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 65vh;
+    
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    font-size: 4em;
+    width: 50%;
+}
+
+#mainImage {
+    height: 80%;
+    /* position: absolute;
+    bottom:0; */
+    align-self: flex-end;
+}
+
+.info {
+    margin-top: 80px;
+    color: white;
+    width: 70%;
+    font-size: 2em;
+}
+
+.contentBox2{
+    color: white;
+    height: 35vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow:hidden;
+    width: 100%;
+    margin: 0;
+}
+
+.spec{
+    margin-left: 15px;
+    min-width: 33%;
+    font-size: 1.6em;
+}
+
+.sensorLeft{
+    position: relative;
+    left: 15px;
+    height: 30vh;
+    grid-area: sensor1;
+}
+.sensorRight{
+    height: 30vh;
+    grid-area: sensor2;
+}
+
+.vive{
+    opacity: 1;
+    height: 80vh;
+    grid-area: head;
+}
+
+.controllerLeft{
+    height: 30vh;
+    grid-area: controller1;
+}
+.controllerRight{
+    position: relative;
+    right: 70px;
+    height: 30vh;
+    grid-area: controller2;
+}
+
+.contentBox3{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 14% 45% 14%;
+    grid-template-rows: 25% 40% 25%;
+    grid-template-areas: 
+    "sensor1 . sensor2"
+    "sensor1 head sensor2"
+    "controller1 . controller2";
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.flip{
+    transform:rotateY(180deg);
+}
+
