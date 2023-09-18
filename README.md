@@ -8,6 +8,9 @@ The GSAP Website Demo is a project showcasing the use of the GreenSock Animation
 
 <h2>Key Features:</h2>
 
-Implementation of GSAP animations for various web elements.
-Interactive user interface elements created with GSAP.
-Smooth transitions and visually appealing effects.
+<ul>
+  <li>Implementation of GSAP animations for various web elements.</li>
+  <li>Interactive user interface elements created with GSAP.</li>
+  <li>Smooth transitions and visually appealing effects.</li>
+</ul>
+
