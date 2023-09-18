@@ -1,6 +1,4 @@
-<h2>Project Name:</h2>
-
-GSAP Website Demo
+<h1>GSAP Website Demo</h1>
 
 <h2>Project Description:</h2>
 
